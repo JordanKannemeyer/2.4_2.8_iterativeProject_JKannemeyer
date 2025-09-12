@@ -1,0 +1,86 @@
+<head>
+<meta charset="utf-8">
+<meta name="Keywords" content="Kiwi Conservation Club, Conservation, New Zealand, Native Birds"/>
+<meta name="Author" content="Jordan Kannemeyer"/>
+<meta name="Description" content="CSS Grid System Layour Tutorial"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- This code is for my meta data -->
+	
+
+	<!-- import the webpage's stylesheet goes here -->
+	<link rel="stylesheet" href="css/styles.css">
+
+   </head>
+			<!-- main webpage content starts here -->
+		<!-- This is the code for my Burger Navigation Menu -->
+	
+		<body>
+			
+		<!-- This div class is for my grid container -->	
+		<div class="grid-container">
+		
+		
+		<!--This div class is for my header text -->
+		<div class ="header">Header</div>
+		
+		<!-- This div class is for my navigation bar -->
+		<div class="nav">
+			<ul>
+				<li><a href = "index.html">Home</a>
+				<li><a href = "page2.html">About</a>
+				<ul>
+				<li><a href = "page3.html">Activities</a>
+					</ul>
+				<li><a href = "page4.html">Contact</a>
+		</div>
+		
+		<!-- This div class is for the contents page on my grid -->
+		<div class="content">
+			<div class="scroll-area"><h1></h1>
+			
+			<!-- Setup Class to hold and control slider images. -->
+		<div class ="imagecarousel">
+			<div class="slider">
+				<div class="images">
+				<input type="radio" name="slide" id="img1" checked> <!-- Radio is the style of the input button.s checked activates the CSS. -->
+				<input type="radio" name="slide" id="img2"> <!-- Id Controls each seperate image through the css using a # -->
+				<input type="radio" name="slide" id="img3">
+				<input type="radio" name="slide" id="img4">
+				
+				<img src="images/FurSeal_ThomasBecker.JPG" class="m1" alt="Image 1">
+				<img src="images/Kereru_CraigMcKenzie.jpg" class="m2" alt="Image 2">
+				<img src="images/SouthernRoyalHead_CraigMcKenzie.JPG" class="m3" alt="Image 3">
+				<img src="images/Tuatara_Karori_DavidBrooks.jpg" class="m4" alt="Image 4">
+			</div>
+				
+			
+			<!-- Setup Class to hold and control Radio input Buttons to move each image. -->
+			<div class="dots">
+				<label for="img1"></label>
+				<label for="img2"></label>
+				<label for="img3"></label>
+				<label for="img4"></label>
+			</div>
+		</div>
+	<div class="row">
+				<div class="column">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+			
+				</div>		
+				<!-- This code is for my back to top button -->
+			<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+				
+			
+			</div>
+		</div>
+		
+		
+		</div>
+		
+		<!-- Import the back to top button JavaScript goes here -->
+		<!-- The source code link to JavaScript needs to go end of body tag to allow to -->
+		<script type="text/javascript" src="js/backtotop.js"></script>
+	
+	<!-- This div class code is for my footer -->
+		<div class="footer"><p>Footer</p></div>
+	</body>
+</html>
